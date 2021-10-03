@@ -67,7 +67,7 @@ button {
   <body>
     <p>This is my page</p>
 
-    <form action="thanks.php" method="get">
+    <form action="thanks.php" method="post">
         <div>
             <label for="name"> Nom :</label>
             <input type="text" id="name" name="user_name">
