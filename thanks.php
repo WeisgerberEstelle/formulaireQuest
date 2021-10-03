@@ -8,11 +8,11 @@
 </head>
 <body>
 
-Merci <?php echo $_GET ["user_name"] . " " ; ?><?php echo $_GET ["user_firstname"] . " ";?> de nous avoir contacté à propos de <?php echo $_GET[ "user_subject"] . " "; ?>.
+Merci <?php echo $_POST["user_name"] . " " ; ?><?php echo $_POST["user_firstname"] . " ";?> de nous avoir contacté à propos de <?php echo $_POST[ "user_subject"] . " "; ?>.
 
-Un de nos conseiller vous contactera soit à l’adresse <?php echo $_GET["user_mail"] . " " ; ?> ou par téléphone au <?php echo $_GET ["user_tel"] . " " ; ?> dans les plus brefs délais pour traiter votre demande : 
+Un de nos conseiller vous contactera soit à l’adresse <?php echo $_POST["user_mail"] . " " ; ?> ou par téléphone au <?php echo $_POST["user_tel"] . " " ; ?> dans les plus brefs délais pour traiter votre demande : 
 
-<?php echo $_GET ["user_message"]; ?>
+<?php echo $_POST["user_message"]; ?>
     
 </body>
 </html>
